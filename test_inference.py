@@ -9,5 +9,6 @@ def test_inference():
                 average perplexity Burstiness is the max perplexity of each sentence'''
 
     result, out = model(sentence)
-
+    print('test')
     assert out == "The Text is written by Human."
+   
