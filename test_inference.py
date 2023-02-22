@@ -30,7 +30,7 @@ def test_inference3():
     model = GPT2PPL()
 
     sentence = '''As the sun rised the dangling daffodils were seen in the garden. That beautiful scene was one of the 
-    best I have ever seen in my life. My attachment with the nature is a never-ending one. Being close to nature makes me feel fresh and energetic.'''
+    best I have ever seen in my life. My attachment with the nature is a never-ending love. Being close to nature makes me feel fresh and energetic. I would like to advise each and every one of you to spare a little time from your busy routine and spend in nature, you won't regret it. '''
 
     result, out = model(sentence)
     print('Test')
